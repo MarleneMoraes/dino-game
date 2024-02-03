@@ -1,7 +1,12 @@
-# Dio Dino Game 
-Dino game for Digital Innovation One's lesson, using only JS, HTML and CSS
+# Recreating the famous dino game without Internet
 
-![screenshot](example.png?raw=true "screenshot")
 
-# License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This repository contains the project "Recreating the famous dino game without Internet" for the JavaScript Game Developer Bootcamp, at platform <u>Digital Innovation One</u> (DIO), with the instructor *Developer* Celso Henrique.
+
+### Tools
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+
+> Project status: Completed :heavy_check_mark:
