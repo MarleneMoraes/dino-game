@@ -1,7 +1,7 @@
 # Recreating the famous dino game without Internet
 
 
-This repository contains the project "Recreating the famous dino game without Internet" for the JavaScript Game Developer Bootcamp, at platform <u>Digital Innovation One</u> (DIO), with the instructor *Developer* Celso Henrique.
+<img src="img/dino-game.png" alt="snakegame" width="250" align="right"/> This repository contains the project "Recreating the famous dino game without Internet" for the JavaScript Game Developer Bootcamp, at platform <u>Digital Innovation One</u> (DIO), with the instructor *Developer* Celso Henrique.
 
 ### Tools
 - HTML5
