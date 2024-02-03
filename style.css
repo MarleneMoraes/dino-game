@@ -1,28 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  width: 100%;
+  height: 100vh;
   background: #fafafa;
 }
 
-.dino {
-  position: absolute;
-  bottom: 0;
-  background-image: url(dino.png);
-  width: 60px;
-  height: 60px;
-}
-
-.cactus {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  bottom: 0;
-  background-image: url(cactus.png);
-}
-
-.game-over {
-  text-align: center;
-  color: #666;
-  margin: 50px 0;
-  font-family: arial;
+#dino-game {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/background.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
 }
 
 @keyframes slideright {
@@ -34,13 +31,25 @@ body {
   }
 }
 
-.background {
+#dino, 
+.cactus {
   position: absolute;
-  bottom: 0px;
-  background-image: url('background.png');
-  background-repeat: repeat-x;
-  animation: slideright 600s infinite linear;
-  -webkit-animation: slideright 600s infinite linear;
-  width: 100%;
-  height: 200px;
+  width: 60px;
+  height: 60px;
+  bottom: 521px;
+}
+
+#dino {
+  background-image: url('./img/dino.png');
+}
+
+.cactus {
+  background-image: url('./img/cactus.png');
+}
+
+#game-over {
+  text-align: center;
+  color: red;
+  margin: 50px 0;
+  font-family: arial;
 }
